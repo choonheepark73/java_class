@@ -3,23 +3,23 @@ package ifExample;
 public class DiceExample {
 
 	public static void main(String[] args) {
-		// Á¶°Ç¹® -  if¹®
-		// Math.random() //0~1¹Ì¸¸ÀÇ ÀÓÀÇÀÇ ½Ç¼ö
+		// ì¡°ê±´ë¬¸ -  ifë¬¸ ì—°ìŠµ
+		// Math.random() //0~1ë¯¸ë§Œì˜ ì„ì˜ì˜ ì‹¤ìˆ˜
 		
 		int num = (int)(Math.random() * 6)+1; //0.0~5.99999
 				
 		if(num == 1) {
-			System.out.println("ÁÖ»çÀ§ÀÇ °ªÀº 1ÀÔ´Ï´Ù");
+			System.out.println("ì£¼ì‚¬ìœ„ì˜ ê°’ì€ 1ì…ë‹ˆë‹¤");
 		}else if(num==2) {
-			System.out.println("ÁÖ»çÀ§ÀÇ °ªÀº 2ÀÔ´Ï´Ù");
+			System.out.println("ì£¼ì‚¬ìœ„ì˜ ê°’ì€ 2ì…ë‹ˆë‹¤");
 		}else if(num==3) {
-			System.out.println("ÁÖ»çÀ§ÀÇ °ªÀº 3ÀÔ´Ï´Ù");
+			System.out.println("ì£¼ì‚¬ìœ„ì˜ ê°’ì€ 3ì…ë‹ˆë‹¤");
 		}else if(num==4) {
-			System.out.println("ÁÖ»çÀ§ÀÇ °ªÀº 4ÀÔ´Ï´Ù");
+			System.out.println("ì£¼ì‚¬ìœ„ì˜ ê°’ì€ 4ì…ë‹ˆë‹¤");
 		}else if(num==5) {
-			System.out.println("ÁÖ»çÀ§ÀÇ °ªÀº 5ÀÔ´Ï´Ù");
+			System.out.println("ì£¼ì‚¬ìœ„ì˜ ê°’ì€ 5ì…ë‹ˆë‹¤");
 		}else {
-			System.out.println("ÁÖ»çÀ§ÀÇ °ªÀº 6ÀÔ´Ï´Ù");
+			System.out.println("ì£¼ì‚¬ìœ„ì˜ ê°’ì€ 6ì…ë‹ˆë‹¤");
 		}
 
 	}
